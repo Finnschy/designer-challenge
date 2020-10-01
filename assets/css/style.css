@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    list-style: none;
+}
+
+header {
+    background: url(../img/ilustracion1.png) top right / 50% no-repeat;
+    min-height: 100vh;
+}
+
+#logo {
+    height: 2.5rem;
+    margin-left: 2%;
+    margin-top: 2%;
+    position: fixed;
+    top: 0;
+}
+
+.website-title {
+    font-size: .8rem;
+    padding-top: 2%;
+    margin-left: 6%;
+}
+
+#bold-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#people {
+    display: inline-block;
+    height: 35rem;
+    margin-top: -5%;
+    margin-left: 51%;
+}
+
+.headline-hero {
+    width: 40%;
+    margin-top: -23%;
+    margin-left: 10%;
+}
+
+.headline-hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.headline-hero h2 {
+    line-height: 2.5rem;
+}
+
+.headline-hero h2::after {
+    content: url(../img/rocket.png);
+}
+
+
+
+#scroll {
+    color: #ff3571;
+    font-weight: 700;
+    margin-top: 15%;
+}
+
+#images {
+    min-height: 80vh;
+    background: url(../img/images.jpg) center / cover no-repeat;
+}
