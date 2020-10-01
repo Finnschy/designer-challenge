@@ -107,6 +107,61 @@ h3 {
     height: 50px;
 }
 
-.challenge-goals {
+#goals-hl {
+   /*  border: 5px solid green; */
     width: 40%;
+    margin-left: 17.5%;
+    margin-bottom: 10%;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+/* .challenge-goals {
+    display: flex;
+
+} */
+
+.first-row ,.second-row {
+    display: flex;
+    justify-content: center
+    
+}
+
+.challenge-goals {
+    line-height: 2rem;
+    display: flex;
+}
+
+.challenge-goals h4 {
+    font-size: 1.2rem;
+}
+
+.challenge-goals-sections {
+    width: 26%;
+    margin: 0 3% 3% 3%;
+}
+
+.why {
+    border: 5px solid black;
+    
+}
+
+.value {
+    border: 5px solid green;
+}
+
+.love {
+    border: 5px solid blue;
+}
+
+.work {
+    border: 5px solid grey;
+}
+
+.goals-icon {
+    border: 5px solid green;
+    height: 45px;
+    
 }
