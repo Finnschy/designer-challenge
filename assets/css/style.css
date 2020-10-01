@@ -11,6 +11,7 @@
 header {
     background: url(../img/ilustracion1.png) top right / 50% no-repeat;
     min-height: 100vh;
+    
 }
 
 #logo {
@@ -33,17 +34,30 @@ header {
 }
 
 #people {
-    display: inline-block;
-    height: 35rem;
-    margin-top: -5%;
-    margin-left: 51%;
+    /* border: 5px solid yellow; */
+    width: 34rem;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    
+    
 }
 
 .headline-hero {
-    width: 40%;
-    margin-top: -23%;
-    margin-left: 10%;
+    /* border: 5px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
+
+.headline-text {
+    /* border: 5px solid orange; */
+    width: 45%;
+    margin-top: 10%;
+    margin-left: 5%;
+    
+}
+
 
 .headline-hero h1 {
     font-size: 4rem;
